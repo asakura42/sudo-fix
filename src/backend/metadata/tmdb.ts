@@ -145,7 +145,7 @@ export function decodeTMDBId(
 
 const tmdbBaseUrl1 = "https://api.themoviedb.org/3";
 const tmdbBaseUrl2 =
-  "https://tmdb-mirror-worker-384728.asakurareg.workers.dev/3";
+  "https://verceltmdbproxy.vercel.app/3";
 
 const apiKey = conf().TMDB_READ_API_KEY;
 
